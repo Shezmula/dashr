@@ -38,3 +38,17 @@ def main():
 if __name__ == '__main__':
     sys.exit(main())
 ```
+
+## Install
+
+Clone this repo and install with pip3:
+
+```bash
+git clone https://github.com/carloe/dashr.git
+cd dashr
+pip3 install .
+```
+
+## License
+
+MIT
