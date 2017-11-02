@@ -3,6 +3,7 @@
 from .client import Client
 from .screens import Screens
 from .squares import Squares
+from .lists import Lists
 
 
 class Dashr:
@@ -17,3 +18,4 @@ class Dashr:
 
         self.screens = Screens(self._client)
         self.squares = Squares(self._client)
+        self.lists = Lists(self._client)
