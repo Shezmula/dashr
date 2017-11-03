@@ -27,10 +27,10 @@ def main():
   # Get details for screen '123'
   print(d.screens.details(123))
 
-  # Update the 'timezone' of the 'home-screen.current-time' suqare
+  # Update the 'timezone' of the 'home-screen.current-time' square
   print(d.squares.update('home-screen.current-time', 'timezone': 'Europe/Berlin'))
 
-  # Get the details of the 'home-screen.current-time' suqare
+  # Get the details of the 'home-screen.current-time' square
   print(d.squares.details('home-screen.current-time'))
 
   return 0
